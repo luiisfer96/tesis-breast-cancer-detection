@@ -1,0 +1,10 @@
+Modelo,AUC_Test [IC95],Accuracy_Test,Sensitivity_Test,Specificity_Test,Threshold,TN,FP,FN,TP
+GradientBoosting,0.753 [0.641-0.863],0.756410256,0.6923,0.8205,0.552,32,7,12,27
+RandomForest,0.761 [0.647-0.866],0.743589744,0.6667,0.8205,0.501,32,7,13,26
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
