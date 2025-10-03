@@ -25,9 +25,9 @@ This repository implements a comprehensive breast cancer detection system combin
 
 ### Prerequisites
 
-- Python 3.7+
-- CUDA-compatible GPU (recommended for training)
-- Conda or virtualenv for environment management
+- Python 3.7.12
+- CUDA 11.4
+- Conda
 
 ### Dependencies
 
@@ -52,7 +52,7 @@ For GPU support, ensure CUDA and cuDNN are properly installed.
 
 1. Create a conda environment:
 ```bash
-conda create -n breast-cancer python=3.8
+conda create -n breast-cancer python=3.7.12
 conda activate breast-cancer
 ```
 
@@ -232,6 +232,8 @@ CSV files with extracted features:
 
 - **1st_config**: Basic transfer learning setup
 - **2nd_config**: Alternative configuration (if available)
+- **access link**: https://drive.google.com/drive/folders/1bSWPxCWcT1IwiTuESikKBPRn6xijhnyG?usp=sharing
+
 
 ### Hyperparameters
 
@@ -260,8 +262,9 @@ Key hyperparameters are defined in the training scripts:
 
 ## Authors
 
-- [Your Name] - Thesis work on breast cancer detection
-- Supervisor: [Supervisor Name]
+- Luis Fernando Sánchez Fuentes
+- Santiago Enrique Monsalve Durán
+- Director: Said Pertuz
 
 ## License
 
